@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Assignment 3 Frontend</title>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>todos</h1>
+        <form id="add-item-form">
+            <div class="input-wrapper">
+                <label for="todo-input" id="choose-all-items"></label>
+                <input type="text" name="todo-input" id="todo-input" placeholder="What needs to be done?"
+                    autocomplete="off" autofocus>
+            </div>
+        </form>
+    </header>
+    <main>
+        <ul id="item-list"></ul>
+    </main>
+
+    <footer class="todo-footer">
+        <span id="item-count"></span>
+        <ul id="button-list">
+            <li>
+                <button id="all-button" class="footer-buttons">All</button>
+            </li>
+            <li>
+                <button id="active-button" class="footer-buttons">Active</button>
+            </li>
+            <li>
+                <button id="completed-button" class="footer-buttons">Completed</button>
+            </li>
+        </ul>
+        <button id="clear-button" class="footer-buttons">Clear Completed</button>
+    </footer>
+    <footer class="footer-info">
+        <p>Created by Calås & Flink Team</p>
+        <p>Part of Frontend assignment with Jakob</p>
+    </footer>
+
+</body>
+
+</html>

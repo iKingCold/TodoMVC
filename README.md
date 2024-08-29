@@ -1,2 +1,3 @@
-# TodoMVC
- TodoMVC Remake
+# TodoMVC in Vue.js
+
+https://axedev.se/TodoMVC/
